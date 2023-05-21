@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="timeDistance.css">
+    <script src="timeDistance.js"></script>
+    <script src="moment.min.js"></script>
+    <title>Distância de Tempo</title>
+</head>
+<body>
+  <div class="container">
+      <img src="img/logo.png" alt="">
+        <div class="card">
+          <h1>Distância de Tempo</h1>
+      
+          <div class="form-group">
+            <label for="chosenDate">Digite uma data (Formato DD/MM/YYYY):</label>
+            <input type="text" id="chosenDate" maxlength="10" oninput="formatInputDate(event)">
+          </div>
+      
+          <div class="form-group">
+            <label for="choice">Escolha como gostaria de exibir a distância entre as datas:</label>
+            <select id="choice">
+              <option value="1">Segundos</option>
+              <option value="2">Minutos</option>
+              <option value="3">Horas</option>
+              <option value="4">Dias</option>
+            </select>
+          </div>
+      
+          <div class="form-group">
+            <button onclick="calculateDateDifference()">Calcular</button>
+          </div>
+      
+          <div class="result" id="result"></div>
+        </div>
+      </div>
+</body>
+</html>
