@@ -30,7 +30,7 @@ body {
     padding: 20px;
     width: 400px;
     text-align: center;
-    color: #333333;
+    color: #230924;
   }
   
   .card h1 {
@@ -40,14 +40,14 @@ body {
   }
   
   .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   
   .form-group label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-weight: bold;
-    color: #333333;
+    color: #230924;
   }
   
   .form-group input[type="text"],
@@ -60,17 +60,17 @@ body {
   
   .form-group button {
     display: block;
-    width: 100%;
+    width: 180px;
     padding: 10px;
-    background-color: #6a5acd;
+    background-color: #009eaf;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
   }
   
   .form-group button:hover {
-    background-color: #9370db;
+    background-color: #ff680a;
   }
   
   .result {
