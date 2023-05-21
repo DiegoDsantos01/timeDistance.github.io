@@ -17,7 +17,8 @@ body {
 
 img {
   width: 100px;
-  padding: 50px;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .card {
@@ -95,7 +96,8 @@ footer {
 @media screen and (max-width: 480px) {
   img {
     width: 80px;
-    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px; 
   }
 
   .card {
